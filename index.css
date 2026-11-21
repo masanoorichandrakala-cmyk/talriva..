@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    overflow-x: hidden;
+    background-color: #FDF6EC;
+    color: #1B2A4A;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-signature {
+  font-family: 'Caveat', cursive;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
